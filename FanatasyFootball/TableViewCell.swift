@@ -10,6 +10,13 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var myimage: UIImageView!
+    
+    @IBOutlet weak var name: UILabel!
+    
+    
+    @IBOutlet weak var myswitch: UISwitch!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +28,18 @@ class TableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBAction func changecell(_ sender: Any) {
+        
+        
+        
+        if !myswitch.isOn {
+            myswitch.backgroundColor = .gray
+            self.backgroundColor = .gray
+        }
+        else{
+            myswitch.backgroundColor = .white
+            self.backgroundColor = .white
+        }
+    }
+    
 }

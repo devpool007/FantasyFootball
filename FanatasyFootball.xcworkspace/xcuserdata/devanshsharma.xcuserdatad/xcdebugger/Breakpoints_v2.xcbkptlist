@@ -10,27 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FanatasyFootball/ViewController.swift"
-            timestampString = "515523574.846932"
+            timestampString = "515700350.843569"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FanatasyFootball/ViewController.swift"
-            timestampString = "515523280.268187"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E44EBC998F7E71514FB4858EB1EB627F"
+               BlueprintIdentifier = "74C42D005DB8E89A3CBA0337453C2D65"
                BuildableName = "Pods_FanatasyFootball.framework"
                BlueprintName = "Pods-FanatasyFootball"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E44EBC998F7E71514FB4858EB1EB627F"
+            BlueprintIdentifier = "74C42D005DB8E89A3CBA0337453C2D65"
             BuildableName = "Pods_FanatasyFootball.framework"
             BlueprintName = "Pods-FanatasyFootball"
             ReferencedContainer = "container:Pods.xcodeproj">

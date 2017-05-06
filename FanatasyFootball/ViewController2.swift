@@ -8,10 +8,45 @@
 
 import UIKit
 
-class ViewController2: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+class ViewController2: UIViewController, UITableViewDataSource, UITableViewDelegate{
+
+    var footballers = ["Diego Costa", "Ibrahimovic", "Lewandowski", "Lionel Messi", "Eden Hazard", "Gareth Bale", "Luis Suarez", "Marco Reus", "Neymar", "Hummels", "Jordi Alba", "Pepe", "Pique", "Sergio Ramos", "Buffon", "David De Gea", "Navas", "Neuer"]
+   
+    
+    
+    
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return footballers.count
+    }
+    
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+     let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
+        
+        cell.myimage.image = UIImage(named: (footballers[indexPath.row] + ".jpg"))
+        cell.name.text =  footballers[indexPath.row]
+        cell.myswitch.isOn = false
+        return (cell)
+        
+    }
+    
+    
+    
+    
+    @IBAction func next(_ sender: Any) {
+        
+        view.backgroundColor = .blue
+        self.performSegue(withIdentifier: "goForward", sender: self)
+        
+        
+    }
+    
+      
+     override func viewDidLoad() {
+          super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
@@ -22,14 +57,6 @@ class ViewController2: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
 
 }

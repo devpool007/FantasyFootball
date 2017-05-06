@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>NVActivityIndicatorView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-FanatasyFootball.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +32,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4F813BADB566BCAABE14B18C82BB06AE</key>
+		<key>3EDFE4052B5DE7D509935AC0774CB135</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>74C42D005DB8E89A3CBA0337453C2D65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7FF2AF174092A06740C44ABADF5FC243</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -38,11 +53,6 @@
 			<true/>
 		</dict>
 		<key>BB6CA1E3885DFDD3E9D0D3C1AF054F25</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E44EBC998F7E71514FB4858EB1EB627F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

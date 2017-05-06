@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37759DED1EBAE065005F6322 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37759DEC1EBAE065005F6322 /* ViewController2.swift */; };
+		37759DF61EBB0E76005F6322 /* Diego Costa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759DF11EBB0E76005F6322 /* Diego Costa.jpg */; };
+		37759DF71EBB0E76005F6322 /* Ibrahimovic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759DF21EBB0E76005F6322 /* Ibrahimovic.jpg */; };
+		37759DF81EBB0E76005F6322 /* Lewandowski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759DF31EBB0E76005F6322 /* Lewandowski.jpg */; };
+		37759DF91EBB0E76005F6322 /* Lionel Messi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759DF41EBB0E76005F6322 /* Lionel Messi.jpg */; };
+		37759DFF1EBB0E8C005F6322 /* Eden Hazard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759DFA1EBB0E8C005F6322 /* Eden Hazard.jpg */; };
+		37759E001EBB0E8C005F6322 /* Gareth Bale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759DFB1EBB0E8C005F6322 /* Gareth Bale.jpg */; };
+		37759E011EBB0E8C005F6322 /* Luis Suarez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759DFC1EBB0E8C005F6322 /* Luis Suarez.jpg */; };
+		37759E021EBB0E8C005F6322 /* Marco Reus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759DFD1EBB0E8C005F6322 /* Marco Reus.jpg */; };
+		37759E031EBB0E8C005F6322 /* Neymar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759DFE1EBB0E8C005F6322 /* Neymar.jpg */; };
+		37759E091EBB0E98005F6322 /* Hummels.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759E041EBB0E98005F6322 /* Hummels.jpg */; };
+		37759E0A1EBB0E98005F6322 /* Jordi Alba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759E051EBB0E98005F6322 /* Jordi Alba.jpg */; };
+		37759E0B1EBB0E98005F6322 /* Pepe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759E061EBB0E98005F6322 /* Pepe.jpg */; };
+		37759E0C1EBB0E98005F6322 /* Pique.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759E071EBB0E98005F6322 /* Pique.jpg */; };
+		37759E0D1EBB0E98005F6322 /* Sergio Ramos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759E081EBB0E98005F6322 /* Sergio Ramos.jpg */; };
+		37759E131EBB0EB2005F6322 /* Buffon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759E0E1EBB0EB2005F6322 /* Buffon.jpg */; };
+		37759E141EBB0EB2005F6322 /* David De Gea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759E0F1EBB0EB2005F6322 /* David De Gea.jpg */; };
+		37759E161EBB0EB2005F6322 /* Navas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759E111EBB0EB2005F6322 /* Navas.jpg */; };
+		37759E171EBB0EB2005F6322 /* Neuer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37759E121EBB0EB2005F6322 /* Neuer.jpg */; };
+		37759E1B1EBB39DB005F6322 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37759E1A1EBB39DB005F6322 /* TableViewCell.swift */; };
 		37CEEC061EB9EA75000F206F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEEC051EB9EA75000F206F /* AppDelegate.swift */; };
 		37CEEC081EB9EA75000F206F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEEC071EB9EA75000F206F /* ViewController.swift */; };
 		37CEEC0B1EB9EA75000F206F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CEEC091EB9EA75000F206F /* Main.storyboard */; };
@@ -14,6 +34,7 @@
 		37CEEC101EB9EA75000F206F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CEEC0E1EB9EA75000F206F /* LaunchScreen.storyboard */; };
 		37CEEC1B1EB9EA75000F206F /* FanatasyFootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEEC1A1EB9EA75000F206F /* FanatasyFootballTests.swift */; };
 		37CEEC261EB9EA75000F206F /* FanatasyFootballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEEC251EB9EA75000F206F /* FanatasyFootballUITests.swift */; };
+		37D6918C1EBD85D5009D745E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D6918B1EBD85D5009D745E /* ViewController3.swift */; };
 		7D8F834FA9B1F7A0CD8E1FC2 /* Pods_FanatasyFootballTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DC740401147275112AC333 /* Pods_FanatasyFootballTests.framework */; };
 		8042AC8806230851ACE39413 /* Pods_FanatasyFootballUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804580E6DE12B9D27FD7E377 /* Pods_FanatasyFootballUITests.framework */; };
 		B547FEF2777DE0204624FF17 /* Pods_FanatasyFootball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6DD2A261145B2D5474CED2 /* Pods_FanatasyFootball.framework */; };
@@ -38,6 +59,26 @@
 
 /* Begin PBXFileReference section */
 		03DC740401147275112AC333 /* Pods_FanatasyFootballTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanatasyFootballTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37759DEC1EBAE065005F6322 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		37759DF11EBB0E76005F6322 /* Diego Costa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Diego Costa.jpg"; sourceTree = "<group>"; };
+		37759DF21EBB0E76005F6322 /* Ibrahimovic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ibrahimovic.jpg; sourceTree = "<group>"; };
+		37759DF31EBB0E76005F6322 /* Lewandowski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lewandowski.jpg; sourceTree = "<group>"; };
+		37759DF41EBB0E76005F6322 /* Lionel Messi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lionel Messi.jpg"; sourceTree = "<group>"; };
+		37759DFA1EBB0E8C005F6322 /* Eden Hazard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eden Hazard.jpg"; sourceTree = "<group>"; };
+		37759DFB1EBB0E8C005F6322 /* Gareth Bale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gareth Bale.jpg"; sourceTree = "<group>"; };
+		37759DFC1EBB0E8C005F6322 /* Luis Suarez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Luis Suarez.jpg"; sourceTree = "<group>"; };
+		37759DFD1EBB0E8C005F6322 /* Marco Reus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marco Reus.jpg"; sourceTree = "<group>"; };
+		37759DFE1EBB0E8C005F6322 /* Neymar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neymar.jpg; sourceTree = "<group>"; };
+		37759E041EBB0E98005F6322 /* Hummels.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hummels.jpg; sourceTree = "<group>"; };
+		37759E051EBB0E98005F6322 /* Jordi Alba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordi Alba.jpg"; sourceTree = "<group>"; };
+		37759E061EBB0E98005F6322 /* Pepe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pepe.jpg; sourceTree = "<group>"; };
+		37759E071EBB0E98005F6322 /* Pique.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pique.jpg; sourceTree = "<group>"; };
+		37759E081EBB0E98005F6322 /* Sergio Ramos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sergio Ramos.jpg"; sourceTree = "<group>"; };
+		37759E0E1EBB0EB2005F6322 /* Buffon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Buffon.jpg; sourceTree = "<group>"; };
+		37759E0F1EBB0EB2005F6322 /* David De Gea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "David De Gea.jpg"; sourceTree = "<group>"; };
+		37759E111EBB0EB2005F6322 /* Navas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Navas.jpg; sourceTree = "<group>"; };
+		37759E121EBB0EB2005F6322 /* Neuer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neuer.jpg; sourceTree = "<group>"; };
+		37759E1A1EBB39DB005F6322 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		37CEEC021EB9EA75000F206F /* FanatasyFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanatasyFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CEEC051EB9EA75000F206F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37CEEC071EB9EA75000F206F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +92,7 @@
 		37CEEC211EB9EA75000F206F /* FanatasyFootballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanatasyFootballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CEEC251EB9EA75000F206F /* FanatasyFootballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanatasyFootballUITests.swift; sourceTree = "<group>"; };
 		37CEEC271EB9EA75000F206F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D6918B1EBD85D5009D745E /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		3E8D15B38D2E170B4DC42481 /* Pods-FanatasyFootballUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanatasyFootballUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanatasyFootballUITests/Pods-FanatasyFootballUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4CC04428D1E1A3C0F98DA21B /* Pods-FanatasyFootballTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanatasyFootballTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanatasyFootballTests/Pods-FanatasyFootballTests.release.xcconfig"; sourceTree = "<group>"; };
 		5ED5390C5B6F83B8AB06F8D2 /* Pods-FanatasyFootballTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanatasyFootballTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanatasyFootballTests/Pods-FanatasyFootballTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,10 +168,31 @@
 			children = (
 				37CEEC051EB9EA75000F206F /* AppDelegate.swift */,
 				37CEEC071EB9EA75000F206F /* ViewController.swift */,
+				37759DEC1EBAE065005F6322 /* ViewController2.swift */,
+				37759E1A1EBB39DB005F6322 /* TableViewCell.swift */,
+				37D6918B1EBD85D5009D745E /* ViewController3.swift */,
 				37CEEC091EB9EA75000F206F /* Main.storyboard */,
 				37CEEC0C1EB9EA75000F206F /* Assets.xcassets */,
 				37CEEC0E1EB9EA75000F206F /* LaunchScreen.storyboard */,
 				37CEEC111EB9EA75000F206F /* Info.plist */,
+				37759DF11EBB0E76005F6322 /* Diego Costa.jpg */,
+				37759DF21EBB0E76005F6322 /* Ibrahimovic.jpg */,
+				37759DF31EBB0E76005F6322 /* Lewandowski.jpg */,
+				37759DF41EBB0E76005F6322 /* Lionel Messi.jpg */,
+				37759DFA1EBB0E8C005F6322 /* Eden Hazard.jpg */,
+				37759DFB1EBB0E8C005F6322 /* Gareth Bale.jpg */,
+				37759DFC1EBB0E8C005F6322 /* Luis Suarez.jpg */,
+				37759DFD1EBB0E8C005F6322 /* Marco Reus.jpg */,
+				37759DFE1EBB0E8C005F6322 /* Neymar.jpg */,
+				37759E041EBB0E98005F6322 /* Hummels.jpg */,
+				37759E051EBB0E98005F6322 /* Jordi Alba.jpg */,
+				37759E061EBB0E98005F6322 /* Pepe.jpg */,
+				37759E071EBB0E98005F6322 /* Pique.jpg */,
+				37759E081EBB0E98005F6322 /* Sergio Ramos.jpg */,
+				37759E0E1EBB0EB2005F6322 /* Buffon.jpg */,
+				37759E0F1EBB0EB2005F6322 /* David De Gea.jpg */,
+				37759E111EBB0EB2005F6322 /* Navas.jpg */,
+				37759E121EBB0EB2005F6322 /* Neuer.jpg */,
 			);
 			path = FanatasyFootball;
 			sourceTree = "<group>";
@@ -281,9 +344,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37759E031EBB0E8C005F6322 /* Neymar.jpg in Resources */,
+				37759E0C1EBB0E98005F6322 /* Pique.jpg in Resources */,
+				37759E0B1EBB0E98005F6322 /* Pepe.jpg in Resources */,
+				37759E011EBB0E8C005F6322 /* Luis Suarez.jpg in Resources */,
+				37759DF61EBB0E76005F6322 /* Diego Costa.jpg in Resources */,
+				37759E161EBB0EB2005F6322 /* Navas.jpg in Resources */,
+				37759E021EBB0E8C005F6322 /* Marco Reus.jpg in Resources */,
+				37759DF71EBB0E76005F6322 /* Ibrahimovic.jpg in Resources */,
+				37759E0A1EBB0E98005F6322 /* Jordi Alba.jpg in Resources */,
+				37759E0D1EBB0E98005F6322 /* Sergio Ramos.jpg in Resources */,
+				37759E141EBB0EB2005F6322 /* David De Gea.jpg in Resources */,
+				37759E171EBB0EB2005F6322 /* Neuer.jpg in Resources */,
+				37759DF91EBB0E76005F6322 /* Lionel Messi.jpg in Resources */,
+				37759DFF1EBB0E8C005F6322 /* Eden Hazard.jpg in Resources */,
 				37CEEC101EB9EA75000F206F /* LaunchScreen.storyboard in Resources */,
 				37CEEC0D1EB9EA75000F206F /* Assets.xcassets in Resources */,
 				37CEEC0B1EB9EA75000F206F /* Main.storyboard in Resources */,
+				37759DF81EBB0E76005F6322 /* Lewandowski.jpg in Resources */,
+				37759E131EBB0EB2005F6322 /* Buffon.jpg in Resources */,
+				37759E001EBB0E8C005F6322 /* Gareth Bale.jpg in Resources */,
+				37759E091EBB0E98005F6322 /* Hummels.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +527,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D6918C1EBD85D5009D745E /* ViewController3.swift in Sources */,
 				37CEEC081EB9EA75000F206F /* ViewController.swift in Sources */,
+				37759E1B1EBB39DB005F6322 /* TableViewCell.swift in Sources */,
 				37CEEC061EB9EA75000F206F /* AppDelegate.swift in Sources */,
+				37759DED1EBAE065005F6322 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +782,7 @@
 				37CEEC2C1EB9EA75000F206F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37CEEC2D1EB9EA75000F206F /* Build configuration list for PBXNativeTarget "FanatasyFootballTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +791,7 @@
 				37CEEC2F1EB9EA75000F206F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37CEEC301EB9EA75000F206F /* Build configuration list for PBXNativeTarget "FanatasyFootballUITests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +800,7 @@
 				37CEEC321EB9EA75000F206F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
