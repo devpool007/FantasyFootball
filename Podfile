@@ -7,6 +7,7 @@ target 'FanatasyFootball' do
 pod 'SwiftyButton'
 pod "ElasticTransition"
 pod 'NVActivityIndicatorView'
+pod 'KNSwitcher'
   # Pods for FanatasyFootball
 
   target 'FanatasyFootballTests' do

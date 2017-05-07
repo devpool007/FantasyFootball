@@ -12,7 +12,7 @@ import UIKit
 class ViewController2: UIViewController, UITableViewDataSource, UITableViewDelegate{
 
     var footballers = ["Diego Costa", "Ibrahimovic", "Lewandowski", "Lionel Messi", "Eden Hazard", "Gareth Bale", "Luis Suarez", "Marco Reus", "Neymar", "Hummels", "Jordi Alba", "Pepe", "Pique", "Sergio Ramos", "Buffon", "David De Gea", "Navas", "Neuer"]
-   
+    var clubnames = ["Chelsea", "Manchester United", "FC Bayern", "FC Barcelona", "Chelsea", "Real Madrid", "FC Barcelona", "Borusia Dortmund", "FC Barcelona", "Borusia Dortmund", "FC Barcelona", "Real Madrid", "FC Barcelona", "Real Madrid", "Juventus", "Manchester United", "Real Madrid", "FC Bayern"]
     
     
     
@@ -28,15 +28,18 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
         
         cell.myimage.image = UIImage(named: (footballers[indexPath.row] + ".jpg"))
         cell.name.text =  footballers[indexPath.row]
+        cell.clubname.text = clubnames[indexPath.row]
         cell.myswitch.isOn = false
+                
+        
         return (cell)
         
     }
     
     
     
-    
-    @IBAction func next(_ sender: Any) {
+        @IBAction func next(_ sender: Any) {
+        
         
         view.backgroundColor = .blue
         self.performSegue(withIdentifier: "goForward", sender: self)

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KNSwitcher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>NVActivityIndicatorView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1332C0A2B6B56F5BD3BB82B643A2420F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3EDFE4052B5DE7D509935AC0774CB135</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>74C42D005DB8E89A3CBA0337453C2D65</key>
+		<key>63B4C1DD19654D832C1E4BC289D8EB52</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7FF2AF174092A06740C44ABADF5FC243</key>
+		<key>65C7F35540370CDF60E068887F68D78D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

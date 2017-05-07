@@ -12,7 +12,10 @@ import SwiftyButton
 class ViewController3: UIViewController,UITableViewDataSource, UITableViewDelegate{
     
     var footballers = ["Diego Costa", "Ibrahimovic", "Lewandowski", "Lionel Messi", "Eden Hazard", "Gareth Bale", "Luis Suarez", "Marco Reus", "Neymar", "Hummels", "Jordi Alba", "Pepe", "Pique", "Sergio Ramos", "Buffon", "David De Gea", "Navas", "Neuer"]
+    var clubnames = ["Chelsea", "Manchester United", "FC Bayern", "FC Barcelona", "Chelsea", "Real Madrid", "FC Barcelona", "Borusia Dortmund", "FC Barcelona", "Borusia Dortmund", "FC Barcelona", "Real Madrid", "FC Barcelona", "Real Madrid", "Juventus", "Manchester United", "Real Madrid", "FC Bayern"]
     
+    
+
     
     
     
@@ -28,6 +31,7 @@ class ViewController3: UIViewController,UITableViewDataSource, UITableViewDelega
         
         cell1.myimage.image = UIImage(named: (footballers[indexPath.row] + ".jpg"))
         cell1.name.text =  footballers[indexPath.row]
+        cell1.clubname.text = clubnames[indexPath.row]
         cell1.myswitch.isOn = false
         return (cell1)
             
@@ -36,7 +40,12 @@ class ViewController3: UIViewController,UITableViewDataSource, UITableViewDelega
     
     
     @IBAction func next2(_ sender: Any) {
+        
+        view.backgroundColor = .red
+        self.performSegue(withIdentifier: "gogo", sender: self)
+
     }
+    
     override func viewDidLoad() {
                 super.viewDidLoad()
 

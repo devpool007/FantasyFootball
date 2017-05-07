@@ -10,12 +10,17 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    
     @IBOutlet weak var myimage: UIImageView!
     
     @IBOutlet weak var name: UILabel!
     
     
     @IBOutlet weak var myswitch: UISwitch!
+    
+    @IBOutlet weak var club: UILabel!
+    
+    @IBOutlet weak var clubname: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -32,14 +37,6 @@ class TableViewCell: UITableViewCell {
         
         
         
-        if !myswitch.isOn {
-            myswitch.backgroundColor = .gray
-            self.backgroundColor = .gray
-        }
-        else{
-            myswitch.backgroundColor = .white
-            self.backgroundColor = .white
-        }
-    }
+         }
     
 }

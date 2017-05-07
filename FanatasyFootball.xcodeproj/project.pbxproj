@@ -35,6 +35,8 @@
 		37CEEC1B1EB9EA75000F206F /* FanatasyFootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEEC1A1EB9EA75000F206F /* FanatasyFootballTests.swift */; };
 		37CEEC261EB9EA75000F206F /* FanatasyFootballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEEC251EB9EA75000F206F /* FanatasyFootballUITests.swift */; };
 		37D6918C1EBD85D5009D745E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D6918B1EBD85D5009D745E /* ViewController3.swift */; };
+		37DAD86B1EBF327700CF4157 /* AnimatedSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DAD86A1EBF327700CF4157 /* AnimatedSwitch.swift */; };
+		37DAD86D1EBF3E6F00CF4157 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DAD86C1EBF3E6F00CF4157 /* ViewController4.swift */; };
 		7D8F834FA9B1F7A0CD8E1FC2 /* Pods_FanatasyFootballTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DC740401147275112AC333 /* Pods_FanatasyFootballTests.framework */; };
 		8042AC8806230851ACE39413 /* Pods_FanatasyFootballUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804580E6DE12B9D27FD7E377 /* Pods_FanatasyFootballUITests.framework */; };
 		B547FEF2777DE0204624FF17 /* Pods_FanatasyFootball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6DD2A261145B2D5474CED2 /* Pods_FanatasyFootball.framework */; };
@@ -93,6 +95,8 @@
 		37CEEC251EB9EA75000F206F /* FanatasyFootballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanatasyFootballUITests.swift; sourceTree = "<group>"; };
 		37CEEC271EB9EA75000F206F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37D6918B1EBD85D5009D745E /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		37DAD86A1EBF327700CF4157 /* AnimatedSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedSwitch.swift; sourceTree = "<group>"; };
+		37DAD86C1EBF3E6F00CF4157 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		3E8D15B38D2E170B4DC42481 /* Pods-FanatasyFootballUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanatasyFootballUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanatasyFootballUITests/Pods-FanatasyFootballUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4CC04428D1E1A3C0F98DA21B /* Pods-FanatasyFootballTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanatasyFootballTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanatasyFootballTests/Pods-FanatasyFootballTests.release.xcconfig"; sourceTree = "<group>"; };
 		5ED5390C5B6F83B8AB06F8D2 /* Pods-FanatasyFootballTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanatasyFootballTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanatasyFootballTests/Pods-FanatasyFootballTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,8 +173,10 @@
 				37CEEC051EB9EA75000F206F /* AppDelegate.swift */,
 				37CEEC071EB9EA75000F206F /* ViewController.swift */,
 				37759DEC1EBAE065005F6322 /* ViewController2.swift */,
-				37759E1A1EBB39DB005F6322 /* TableViewCell.swift */,
 				37D6918B1EBD85D5009D745E /* ViewController3.swift */,
+				37DAD86C1EBF3E6F00CF4157 /* ViewController4.swift */,
+				37759E1A1EBB39DB005F6322 /* TableViewCell.swift */,
+				37DAD86A1EBF327700CF4157 /* AnimatedSwitch.swift */,
 				37CEEC091EB9EA75000F206F /* Main.storyboard */,
 				37CEEC0C1EB9EA75000F206F /* Assets.xcassets */,
 				37CEEC0E1EB9EA75000F206F /* LaunchScreen.storyboard */,
@@ -527,6 +533,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DAD86B1EBF327700CF4157 /* AnimatedSwitch.swift in Sources */,
+				37DAD86D1EBF3E6F00CF4157 /* ViewController4.swift in Sources */,
 				37D6918C1EBD85D5009D745E /* ViewController3.swift in Sources */,
 				37CEEC081EB9EA75000F206F /* ViewController.swift in Sources */,
 				37759E1B1EBB39DB005F6322 /* TableViewCell.swift in Sources */,

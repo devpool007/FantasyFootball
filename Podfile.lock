@@ -1,21 +1,24 @@
 PODS:
   - ElasticTransition (3.1.1):
     - MotionAnimation (~> 0.1.2)
+  - KNSwitcher (1.0)
   - MotionAnimation (0.1.2)
   - NVActivityIndicatorView (3.6.1)
   - SwiftyButton (0.6.0)
 
 DEPENDENCIES:
   - ElasticTransition
+  - KNSwitcher
   - NVActivityIndicatorView
   - SwiftyButton
 
 SPEC CHECKSUMS:
   ElasticTransition: 6c4e4739e32480c864217db912100f3657f6447a
+  KNSwitcher: bcfbebe831bf66b83501ecc7cefd24db302b76bb
   MotionAnimation: ff5c8fc2e429d7e10d46ae86819ba9759846c343
   NVActivityIndicatorView: 9f52a7f84bf5c6a798722c450fe3c198e01c56ed
   SwiftyButton: 4c9b61c499f172971a1b8c2eebbbdc20a26d8a08
 
-PODFILE CHECKSUM: be6b4f38d0b39a959940d69c779cfa3f40079ea5
+PODFILE CHECKSUM: 23be62b241d3b301b70ac67f59598254c08bf234
 
 COCOAPODS: 1.2.1
