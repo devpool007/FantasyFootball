@@ -15,10 +15,9 @@ class TableViewCell: UITableViewCell {
     
     @IBOutlet weak var name: UILabel!
     
+    @IBOutlet weak var club: UILabel!
     
     @IBOutlet weak var myswitch: UISwitch!
-    
-    @IBOutlet weak var club: UILabel!
     
     @IBOutlet weak var clubname: UILabel!
     

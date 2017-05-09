@@ -82,7 +82,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VMG-vM-biB" id="eNR-S0-XCK">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="145"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fjn-Gy-4jK">
@@ -118,7 +118,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Club :-&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pe-2l-eXV">
-                                                    <rect key="frame" x="8" y="97" width="73" height="40"/>
+                                                    <rect key="frame" x="8" y="97" width="92" height="48"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -136,7 +136,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <outlet property="club" destination="6pe-2l-eXV" id="5AM-we-cWi"/>
+                                            <outlet property="club" destination="6pe-2l-eXV" id="mjh-Ac-vrL"/>
                                             <outlet property="clubname" destination="ZZP-oQ-L2n" id="jIi-bQ-ikL"/>
                                             <outlet property="myimage" destination="Ldn-t4-1WS" id="5Wd-uY-Arj"/>
                                             <outlet property="myswitch" destination="zjd-rG-Acv" id="cEp-qr-9vc"/>
@@ -171,7 +171,6 @@
         <!--Choose oponent team!-->
         <scene sceneID="hXo-w3-AFY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xZH-tv-iQ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Nfg-wP-3jp" customClass="ViewController3" customModule="FanatasyFootball" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4dN-iF-7hy"/>
@@ -201,14 +200,14 @@
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="142" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WiJ-vF-2on">
                                 <rect key="frame" x="0.0" y="72" width="384" height="493"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="142" id="28w-fU-OQR" customClass="TableViewCell" customModule="FanatasyFootball" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="384" height="142"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="28w-fU-OQR" id="Q3C-gH-AVt">
-                                            <rect key="frame" x="0.0" y="0.0" width="384" height="141"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="384" height="142"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgO-Q6-sdI">
@@ -244,7 +243,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Club :-&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3V-IU-dB8">
-                                                    <rect key="frame" x="8" y="97" width="73" height="40"/>
+                                                    <rect key="frame" x="8" y="97" width="92" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -289,6 +288,7 @@
                         <outlet property="goBack" destination="FNr-jz-lV9" id="qNM-EH-XLd"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xZH-tv-iQ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5319.1999999999998" y="80.50974512743629"/>
         </scene>

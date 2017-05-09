@@ -30,8 +30,9 @@ class ViewController2: UIViewController, UITableViewDataSource, UITableViewDeleg
         cell.name.text =  footballers[indexPath.row]
         cell.clubname.text = clubnames[indexPath.row]
         cell.myswitch.isOn = false
-                
-        
+        cell.name.font = UIFont(name: "AmericanTypewriter", size: 20)
+        cell.club.font = UIFont(name: "AmericanTypewriter-Bold", size: 20)
+        cell.clubname.font = UIFont(name: "AmericanTypewriter", size: 18)
         return (cell)
         
     }
